@@ -7,3 +7,5 @@ const Servicios = () => {
     </section>
   );
 }
+
+export default Servicios;

@@ -7,3 +7,5 @@ const Contacto = () => {
     </section>
   );
 }
+
+export default Contacto;

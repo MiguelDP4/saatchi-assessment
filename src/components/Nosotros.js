@@ -7,3 +7,5 @@ const Nosotros = () => {
     </section>
   );
 }
+
+export default Nosotros;

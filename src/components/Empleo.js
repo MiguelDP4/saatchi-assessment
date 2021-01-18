@@ -7,3 +7,5 @@ const Empleo = () => {
     </section>
   );
 }
+
+export default Empleo;

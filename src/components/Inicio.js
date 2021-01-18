@@ -7,3 +7,5 @@ const Inicio = () => {
     </section>
   );
 }
+
+export default Inicio;
