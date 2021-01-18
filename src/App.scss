@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  z-index: 1000;
   position: fixed;
   top: 0;
   height: 124px;
@@ -12,6 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   border-bottom: solid 4px #E24D21;
+  background-color: white;
   img {
     height: 80px;
     width: auto;
@@ -50,6 +52,32 @@ header {
       }
     }
   }
+}
+
+#inicio {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-buttons {
+    z-index: 10;
+    position: relative;
+    top: calc(-100vw / 4.6);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    button {
+      color: white;
+      border: none;
+      background-color: rgba(125, 125, 125, 0.4);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      outline: none;
+    }
+  }
+
 }
 
 .App {
