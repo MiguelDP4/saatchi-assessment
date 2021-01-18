@@ -1,3 +1,5 @@
+$gray-background: #F6F6F6;
+
 body {
   margin: 0;
   margin-top: 128px;
@@ -86,8 +88,10 @@ header {
     border-radius: 50%;
   }
   .contact-container {
-    display: flex;
-    justify-content: center;    
+    position: absolute;
+    top: calc(100vw / 2.5);
+    left: 50%;
+    transform: translate(-50%, 0);
     .contact {
       box-sizing: border-box;
       padding: 30px;
@@ -97,12 +101,10 @@ header {
       justify-content: center;
       font-family: Arial, Helvetica, sans-serif;
       letter-spacing: 1.2px;
-      font-size: 18px;
-      background-color: white;
-      position: relative;
-      top: -200px;
       height: 150px;
       width: 330px;
+      font-size: 18px;
+      background-color: white;
       -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
       box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
       border-radius: 40px;
@@ -124,6 +126,18 @@ header {
         transition: 0.5s;
       }
     }
+  }
+}
+
+#nuestra-cultura {
+  display: flex;
+  flex-direction: column;
+  .cultura-image-container {
+    display: flex;
+    justify-content: start;
+  }
+  .cultura-info {
+    display: flex;
   }
 }
 
