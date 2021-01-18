@@ -70,14 +70,61 @@ header {
     button {
       color: white;
       border: none;
-      background-color: rgba(125, 125, 125, 0.4);
+      background-color: rgba(80, 80, 80, 0.4);
       width: 40px;
       height: 40px;
       border-radius: 50%;
       outline: none;
     }
   }
-
+  .white-oval {
+    z-index: 15;
+    transform: translate(0, -80px);
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: center;    
+    .contact {
+      box-sizing: border-box;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 18px;
+      background-color: white;
+      position: relative;
+      top: -200px;
+      height: 150px;
+      width: 330px;
+      -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+      border-radius: 40px;
+      p, b {
+        line-height: 1em;
+        margin: 0.4em;
+        padding: 0;
+      }
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85em;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        border-radius: 20px;
+        background-color: #E24D21;
+        color: white;
+        transition: 0.5s;
+      }
+    }
+  }
 }
 
 .App {
