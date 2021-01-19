@@ -39,7 +39,7 @@ export class App extends React.Component {
         <Empleo />
         <NuestrasAgencias />
         <Contacto />
-        <Footer />
+        <Footer activeTab={activeTab} changeTab={this.changeTab}/>
       </div>
     );
   }
