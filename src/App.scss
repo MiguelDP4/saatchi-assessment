@@ -1,5 +1,12 @@
 $gray-background: #F6F6F6;
 
+.small-orange-underline {
+  box-sizing: border-box;
+  width: 50px;
+  border: solid 2px #E24D21;
+  border-radius: 20%;
+}
+
 body {
   margin: 0;
   margin-top: 128px;
@@ -130,14 +137,50 @@ header {
 }
 
 #nuestra-cultura {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
   display: flex;
   flex-direction: column;
-  .cultura-image-container {
-    display: flex;
-    justify-content: start;
-  }
-  .cultura-info {
-    display: flex;
+  .cultura-container {
+    margin-left: 75px;
+    .cultura-image-container {
+      display: flex;
+      justify-content: start;
+    }
+    .cultura-info {
+      display: flex;
+      text-align: left;
+      h3 {
+        font-size: 1.8em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .round-image-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border-radius: 50% 0 0 50%;
+        border-left: solid 6px #459436;
+        border-top: solid 6px #459436;
+        border-bottom: solid 6px #459436;
+        img {
+          box-sizing: border-box;
+          border-radius: 50% 0 0 50%;
+          width: 100%;
+        }
+      }
+      
+      .cultura-left {
+        flex: 1;
+      }
+      .cultura-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }
 
