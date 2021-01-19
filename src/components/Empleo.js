@@ -7,7 +7,7 @@ const Empleo = () => (
     <div id="empleo-anchor" />
     <div className="empleo-container">
       <div className="empleo-image-container">
-        <img src={IconEmpleo} />
+        <img src={IconEmpleo} alt="empleo" />
       </div>
       <div className="empleo-info">
         <div className="empleo-left">
@@ -15,7 +15,7 @@ const Empleo = () => (
           <div className="small-orange-underline" />
           <p>¿Quieres formar parte de nuestro equipo?</p>
           <div className="round-image-right">
-            <img src={ImageEmpleo} />
+            <img src={ImageEmpleo} alt="empleo" />
           </div>
         </div>
         <form className="empleo-right">
