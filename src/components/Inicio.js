@@ -8,6 +8,7 @@ import image4 from '../img/4.jpg';
 const Inicio = () => {
   return (
     <section id='inicio'>
+      <div id='inicio-anchor'></div>
       <CarouselProvider
         naturalSlideWidth={100}
         naturalSlideHeight={40}

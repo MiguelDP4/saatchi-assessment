@@ -9,43 +9,43 @@ const Header = props => {
       <img src={logo}></img>
       <ul className="header-links">
         <LinkButton
-          anchor='inicio' 
+          anchor='inicio-anchor' 
           active={activeTab == 'inicio' ? true : false}
           text='Inicio'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='nuestra-cultura' 
+          anchor='nuestra-cultura-anchor' 
           active={activeTab == 'nuestra-cultura' ? true : false}
           text='Nuestra Cultura'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='nosotros' 
+          anchor='nosotros-anchor' 
           active={activeTab == 'nosotros' ? true : false}
           text='Nosotros'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='servicios' 
+          anchor='servicios-anchor' 
           active={activeTab == 'servicios' ? true : false}
           text='Servicios'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='empleo' 
+          anchor='empleo-anchor' 
           active={activeTab == 'empleo' ? true : false}
           text='Empleo'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='nuestras-agencias' 
+          anchor='nuestras-agencias-anchor' 
           active={activeTab == 'nuestras-agencias' ? true : false}
           text='Nuestras Agencias'
           changeTab={changeTab}
         />
         <LinkButton
-          anchor='contacto' 
+          anchor='contacto-anchor' 
           active={activeTab == 'contacto' ? true : false}
           text='Contacto'
           changeTab={changeTab}

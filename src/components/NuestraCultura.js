@@ -5,6 +5,7 @@ import CultureImage from '../img/5.jpg';
 const NuestraCultura = () => {
   return (
     <section id='nuestra-cultura'>
+      <div id='nuestra-cultura-anchor'></div>
       <div className='cultura-container'>
         <div className='cultura-image-container'>
           <img src={IconCulture} />

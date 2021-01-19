@@ -11,6 +11,7 @@ import calidad from '../img/calidad.png';
 const Nosotros = () => {
   return (
     <section id='nosotros'>
+      <div id='nosotros-anchor'></div>
       <div className='nosotros-image-container'>
         <img src={IconNosotros} />
       </div>

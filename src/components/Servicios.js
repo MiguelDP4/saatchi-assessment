@@ -12,6 +12,7 @@ import capacitaciones from "../img/capacitaciones.png";
 const Servicios = () => {
   return (
     <section id="servicios">
+      <div id='servicios-anchor'></div>
       <div className="servicios-image-container">
         <img src={IconServicios} />
       </div>
