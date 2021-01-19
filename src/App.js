@@ -20,10 +20,10 @@ export class App extends React.Component {
   }
 
   changeTab(anchor) {
-    console.log(this.state);
+    const currentState = this.state;
     this.setState({
-      ...this.state,
-      activeTab: anchor
+      ...currentState,
+      activeTab: anchor,
     });
   }
 
@@ -31,7 +31,7 @@ export class App extends React.Component {
     const { activeTab } = this.state;
     return (
       <div className="App">
-        <Header activeTab={activeTab} changeTab={this.changeTab}/>
+        <Header activeTab={activeTab} changeTab={this.changeTab} />
         <Inicio />
         <NuestraCultura />
         <Nosotros />
@@ -39,11 +39,10 @@ export class App extends React.Component {
         <Empleo />
         <NuestrasAgencias />
         <Contacto />
-        <Footer activeTab={activeTab} changeTab={this.changeTab}/>
+        <Footer activeTab={activeTab} changeTab={this.changeTab} />
       </div>
     );
   }
-
 }
 
 export default App;
