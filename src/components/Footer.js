@@ -5,59 +5,59 @@ import LinkButton from './LinkButton';
 const Footer = props => {
   const { activeTab, changeTab } = props;
   return (
-    <footer id='footer'>
-      <div className='orange-background'>
-        <img src={logo}></img>
+    <footer id="footer">
+      <div className="orange-background">
+        <img src={logo} />
         <ul className="header-links">
           <LinkButton
-            anchor='inicio-anchor' 
-            active={activeTab == 'inicio-anchor' ? true : false}
-            text='Inicio'
+            anchor="inicio-anchor"
+            active={activeTab == 'inicio-anchor'}
+            text="Inicio"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='nuestra-cultura-anchor' 
-            active={activeTab == 'nuestra-cultura-anchor' ? true : false}
-            text='Nuestra Cultura'
+            anchor="nuestra-cultura-anchor"
+            active={activeTab == 'nuestra-cultura-anchor'}
+            text="Nuestra Cultura"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='nosotros-anchor' 
-            active={activeTab == 'nosotros-anchor' ? true : false}
-            text='Nosotros'
+            anchor="nosotros-anchor"
+            active={activeTab == 'nosotros-anchor'}
+            text="Nosotros"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='servicios-anchor' 
-            active={activeTab == 'servicios-anchor' ? true : false}
-            text='Servicios'
+            anchor="servicios-anchor"
+            active={activeTab == 'servicios-anchor'}
+            text="Servicios"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='empleo-anchor' 
-            active={activeTab == 'empleo-anchor' ? true : false}
-            text='Empleo'
+            anchor="empleo-anchor"
+            active={activeTab == 'empleo-anchor'}
+            text="Empleo"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='nuestras-agencias-anchor' 
-            active={activeTab == 'nuestras-agencias-anchor' ? true : false}
-            text='Nuestras Agencias'
+            anchor="nuestras-agencias-anchor"
+            active={activeTab == 'nuestras-agencias-anchor'}
+            text="Nuestras Agencias"
             changeTab={changeTab}
           />
           <LinkButton
-            anchor='contacto-anchor' 
-            active={activeTab == 'contacto-anchor' ? true : false}
-            text='Contacto'
+            anchor="contacto-anchor"
+            active={activeTab == 'contacto-anchor'}
+            text="Contacto"
             changeTab={changeTab}
           />
-        </ul>  
+        </ul>
       </div>
-      <div className='green-background footer-copywright'>
+      <div className="green-background footer-copywright">
         © Credichapin 2018. Todos los derechos reservados
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
