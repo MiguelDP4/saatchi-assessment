@@ -1,9 +1,9 @@
-$gray-background: #F6F6F6;
+$gray-background: #f6f6f6;
 
 .small-orange-underline {
   box-sizing: border-box;
   width: 50px;
-  border: solid 2px #E24D21;
+  border: solid 2px #e24d21;
   border-radius: 20%;
 }
 
@@ -12,6 +12,14 @@ $gray-background: #F6F6F6;
   width: 50px;
   border: solid 2px #459436;
   border-radius: 20%;
+}
+
+.green-background {
+  background-color: #459436;
+}
+
+.orange-background {
+  background-color: #e24d21;
 }
 
 body {
@@ -47,7 +55,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: solid 4px #E24D21;
+  border-bottom: solid 4px #e24d21;
   background-color: white;
   img {
     height: 80px;
@@ -74,7 +82,7 @@ header {
         &.active-background {
           padding: 8px 20px 8px 20px;
           border-radius: 20px;
-          background-color: #E24D21;
+          background-color: #e24d21;
           color: white;
           transition: 0.5s;
         }
@@ -138,10 +146,13 @@ header {
       width: 330px;
       font-size: 18px;
       background-color: white;
-      -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
-      box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+      -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
       border-radius: 40px;
-      p, b {
+      p,
+      b {
         line-height: 1em;
         margin: 0.4em;
         padding: 0;
@@ -154,7 +165,7 @@ header {
         text-decoration: none;
         padding: 8px 20px 8px 20px;
         border-radius: 20px;
-        background-color: #E24D21;
+        background-color: #e24d21;
         color: white;
         transition: 0.5s;
       }
@@ -191,7 +202,7 @@ header {
           width: 100%;
         }
       }
-      
+
       .cultura-left {
         flex: 1;
         display: flex;
@@ -245,8 +256,7 @@ header {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-left: 45px;
-          margin-right: 45px;
+          margin: 20px 45px 20px 45px;
           h5 {
             margin-top: 10px;
             margin-bottom: 10px;
@@ -256,10 +266,56 @@ header {
         }
       }
     }
-
   }
 }
 
+#servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .servicios-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .servicios-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .servicios-column {
+        .img-servicio {
+          width: 270px;
+          height: 270px;
+        }
+        .servicios-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 270px;
+          height: 270px;
+          h5 {
+            font-size: 1.15em;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 70%;
+          }
+          a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            padding: 8px 20px 8px 20px;
+            border-radius: 20px;
+            color: white;
+            transition: 0.5s;
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
 .App {
   text-align: center;
 }
