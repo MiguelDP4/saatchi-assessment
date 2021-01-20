@@ -1,4 +1,4 @@
-# Prueba de conocimiento para aplicación a 4amaatchi
+# Prueba de conocimiento para aplicación a 4amsaatchi
 
 En este repositorio está el código para la página creada como prueba de conocimiento en la aplicación a la posición de desarrollador web en 4amsaatchi. La página fue creada con React.js, es completamente estática con la excepción de los links del encabezado, que dirigirán al usuario a la sección indicada.
 
