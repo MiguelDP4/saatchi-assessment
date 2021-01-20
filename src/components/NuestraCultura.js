@@ -7,7 +7,7 @@ const NuestraCultura = () => (
     <div id="nuestra-cultura-anchor" />
     <div className="cultura-container">
       <div className="cultura-image-container">
-        <img src={IconCulture} />
+        <img src={IconCulture} alt="iconocultura" />
       </div>
       <div className="cultura-info">
         <div className="cultura-left">
@@ -31,7 +31,7 @@ const NuestraCultura = () => (
         </div>
         <div className="cultura-right">
           <div className="round-image-left">
-            <img src={CultureImage} />
+            <img src={CultureImage} alt="imagencultura" />
           </div>
         </div>
       </div>

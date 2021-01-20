@@ -23,8 +23,8 @@ const Empleo = () => (
           <input type="email" id="email" name="email" placeholder="Correo Electrónico" />
           <input type="text" id="asunto" name="asunto" placeholder="Asunto" />
           <textarea id="mensaje" name="mensaje" placeholder="Mensaje" />
-          <a href="#" className="gray-background">Adjuntar Archivo</a>
-          <a href="#" className="orange-background send-button">ENVIAR</a>
+          <a href="https://www.google.com/" className="gray-background">Adjuntar Archivo</a>
+          <a href="https://www.google.com/" className="orange-background send-button">ENVIAR</a>
         </form>
       </div>
     </div>

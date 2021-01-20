@@ -1,4 +1,5 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import logo from '../img/logo.png';
 import LinkButton from './LinkButton';
 
@@ -58,6 +59,11 @@ const Footer = props => {
       </div>
     </footer>
   );
+};
+
+Footer.propTypes = {
+  activeTab: PropTypes.string.isRequired,
+  changeTab: PropTypes.func.isRequired,
 };
 
 export default Footer;

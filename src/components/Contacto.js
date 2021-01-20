@@ -45,7 +45,7 @@ const Contacto = () => (
           <input type="email" id="email" name="email" placeholder="Correo Electrónico" />
           <input type="text" id="asunto" name="asunto" placeholder="Asunto" />
           <textarea id="mensaje" name="mensaje" placeholder="Mensaje" />
-          <a href="#" className="green-background send-button">ENVIAR</a>
+          <a href="https://www.google.com/" className="green-background send-button">ENVIAR</a>
         </form>
       </div>
     </div>
