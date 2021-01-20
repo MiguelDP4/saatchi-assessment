@@ -9,7 +9,7 @@ const Contacto = () => (
     <div id="contacto-anchor" />
     <div className="contacto-container">
       <div className="contacto-image-container">
-        <img src={IconContacto} />
+        <img src={IconContacto} alt="contacto" />
       </div>
       <div className="contacto-info">
         <div className="contacto-left">
@@ -18,7 +18,7 @@ const Contacto = () => (
           <div className="info-contacto">
             <div className="sub-info-contacto">
               <div>
-                <img src={Direccion} />
+                <img src={Direccion} alt="direccion" />
                 <h5>DIRECCION</h5>
               </div>
               <p>3a avenida 13-78 edificio Citigroup plaza internacional zona 10 sexto nivel,</p>
@@ -26,14 +26,14 @@ const Contacto = () => (
             </div>
             <div className="sub-info-contacto">
               <div>
-                <img src={PBX} />
+                <img src={PBX} alt="pbx" />
                 <h5>PBX</h5>
               </div>
               <b>23 266 877</b>
             </div>
             <div className="sub-info-contacto">
               <div>
-                <img src={EMAIL} />
+                <img src={EMAIL} alt="email" />
                 <h5>E-mail</h5>
               </div>
               <b>reclutamiento@grupotrt.com</b>
@@ -45,7 +45,7 @@ const Contacto = () => (
           <input type="email" id="email" name="email" placeholder="Correo Electrónico" />
           <input type="text" id="asunto" name="asunto" placeholder="Asunto" />
           <textarea id="mensaje" name="mensaje" placeholder="Mensaje" />
-          <a href="#" className="green-background send-button">ENVIAR</a>
+          <a href="https://www.google.com/" className="green-background send-button">ENVIAR</a>
         </form>
       </div>
     </div>

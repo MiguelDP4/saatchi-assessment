@@ -1,5 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { PropTypes } from 'prop-types';
 
 const LinkButton = props => {
   const {
@@ -16,6 +17,13 @@ const LinkButton = props => {
       </AnchorLink>
     </li>
   );
+};
+
+LinkButton.propTypes = {
+  active: PropTypes.bool.isRequired,
+  anchor: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  changeTab: PropTypes.func.isRequired,
 };
 
 export default LinkButton;

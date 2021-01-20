@@ -16,9 +16,9 @@ const Inicio = () => (
       totalSlides={3}
     >
       <Slider>
-        <Slide index={0}><img src={image1} /></Slide>
-        <Slide index={1}><img src={image2} /></Slide>
-        <Slide index={2}><img src={image4} /></Slide>
+        <Slide index={0}><img src={image1} alt="slideOne" /></Slide>
+        <Slide index={1}><img src={image2} alt="slideTwo" /></Slide>
+        <Slide index={2}><img src={image4} alt="slideTree" /></Slide>
       </Slider>
       <div className="carousel-buttons">
         <ButtonBack>◄</ButtonBack>
@@ -30,7 +30,7 @@ const Inicio = () => (
       <div className="contact">
         <p>Te ayudamos a cumplir</p>
         <b>tus sueños</b>
-        <a href="#">CONTÁCTENOS</a>
+        <a href="https://www.google.com/">CONTÁCTENOS</a>
       </div>
     </div>
   </section>

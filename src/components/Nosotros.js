@@ -12,7 +12,7 @@ const Nosotros = () => (
   <section id="nosotros">
     <div id="nosotros-anchor" />
     <div className="nosotros-image-container">
-      <img src={IconNosotros} />
+      <img src={IconNosotros} alt="iconnosotros" />
     </div>
     <h3>Nosotros</h3>
     <div className="small-orange-underline" />
@@ -44,31 +44,31 @@ const Nosotros = () => (
         <div className="small-green-underline" />
         <div className="valores-lista">
           <div className="valor-ilustracion">
-            <img src={respeto} />
+            <img src={respeto} alt="respeto" />
             <h5>Respeto</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={confianza} />
+            <img src={confianza} alt="confianza" />
             <h5>Confianza</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={lealtad} />
+            <img src={lealtad} alt="lealtad" />
             <h5>Lealtad</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={honestidad} />
+            <img src={honestidad} alt="honestidad" />
             <h5>Honestidad</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={responsabilidad} />
+            <img src={responsabilidad} alt="responsabilidad" />
             <h5>Responsabilidad</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={identidad} />
+            <img src={identidad} alt="identidad" />
             <h5>Identidad</h5>
           </div>
           <div className="valor-ilustracion">
-            <img src={calidad} />
+            <img src={calidad} alt="calidad" />
             <h5>Calidad</h5>
           </div>
         </div>

@@ -13,53 +13,53 @@ const Servicios = () => (
   <section id="servicios">
     <div id="servicios-anchor" />
     <div className="servicios-image-container">
-      <img src={IconServicios} />
+      <img src={IconServicios} alt="servicios" />
     </div>
     <h3>Servicios</h3>
     <div className="small-orange-underline" />
     <div className="servicios-container">
       <div className="servicios-section">
         <div className="servicios-column">
-          <img className="img-servicio" src={clientesPhoto} />
+          <img className="img-servicio" src={clientesPhoto} alt="servicios" />
           <div className="servicios-info">
-            <img src={clientes} />
+            <img src={clientes} alt="servicios" />
             <h5>NUESTROS CLIENTES</h5>
-            <a className="orange-background" href="#">
+            <a className="orange-background" href="https://www.google.com/">
               Ver Más
             </a>
           </div>
         </div>
         <div className="servicios-column">
           <div className="servicios-info">
-            <img src={colaboradores} />
+            <img src={colaboradores} alt="servicios" />
             <h5>NUESTROS COLABORADORES</h5>
-            <a className="green-background" href="#">
+            <a className="green-background" href="https://www.google.com/">
               Ver Más
             </a>
           </div>
-          <img className="img-servicio" src={colaboradoresPhoto} />
+          <img className="img-servicio" src={colaboradoresPhoto} alt="servicios" />
         </div>
       </div>
       <div className="servicios-section">
         <div className="servicios-column">
-          <img className="img-servicio" src={creditosPhoto} />
+          <img className="img-servicio" src={creditosPhoto} alt="servicios" />
           <div className="servicios-info">
-            <img src={creditos} />
+            <img src={creditos} alt="servicios" />
             <h5>CREDITOS</h5>
-            <a className="green-background" href="#">
+            <a className="green-background" href="https://www.google.com/">
               Ver Más
             </a>
           </div>
         </div>
         <div className="servicios-column">
           <div className="servicios-info">
-            <img src={capacitaciones} />
+            <img src={capacitaciones} alt="servicios" />
             <h5>CAPACITACIONES</h5>
-            <a className="orange-background" href="#">
+            <a className="orange-background" href="https://www.google.com/">
               Ver Más
             </a>
           </div>
-          <img className="img-servicio" src={capacitacionesPhoto} />
+          <img className="img-servicio" src={capacitacionesPhoto} alt="servicios" />
         </div>
       </div>
     </div>
